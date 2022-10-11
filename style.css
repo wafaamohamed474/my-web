@@ -214,3 +214,34 @@ transform: scale(1.1);
    padding: 0 12px 0 0;
    color: rgb(69, 34, 102);
 }
+@media (max-width:1023px){
+  header{
+    padding: 10px 10px;
+  }
+  .navigation a{
+    padding-left: 10px;
+  }
+  section{
+    padding: 200px 50px;
+  }
+  .main h2{
+    font-size: 1.2em;
+  }
+  .main h3{
+    font-size: 1.3em;
+  }
+   
+}
+@media (max-width:641px){
+  body{
+    font-size: 12px;
+  }
+}
+@media(max-width:300px){
+  body{
+    font-size:10px ;
+  }
+  .contact .info p{
+    font-size: 12px;
+  }
+}
